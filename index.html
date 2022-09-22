@@ -26,19 +26,26 @@
 
     body {
       align-items: center;
-      background-color: #ec165770;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('https://www.adotrip.com/public/images/city/master_images/5e4117f644b0c-Lonavala_Package_Tour.jpg');
       display: flex;
+      align-items: baseline;
+      justify-content: center;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
     }
 
     .container {
-      color: rgb(10, 20, 12);
+      padding-top: 50px;
+      color: #e6d593;
       margin: 0 auto;
       text-align: center;
     }
 
     h1 {
+
       font-weight: normal;
       letter-spacing: 0.100rem;
       text-transform: uppercase;
@@ -81,9 +88,9 @@
       }
     }
   </style>
-  <body>
+  <body style="color:#ffff">
     <div class="container">
-      <h1 id="headline">🎇 Diwali Holiday CountDown ✨</h1>
+      <h1 id="headline">☔ Lonavala Countdown 🌧️</h1>
       <div id="countdown">
         <ul>
           <li><span id="days"></span>days</li>
@@ -119,7 +126,7 @@
         mm = String(today.getMonth() + 1).padStart(2, "0"),
         yyyy = today.getFullYear(),
         nextYear = yyyy + 1,
-        dayMonth = "10/21/",
+        dayMonth = "08/18/",
         aazadi = dayMonth + yyyy;
 
       today = mm + "/" + dd + "/" + yyyy;
